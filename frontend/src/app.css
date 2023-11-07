@@ -1,0 +1,36 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input_holder{
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input_holder input{
+    border: 1px solid rgb(204, 204, 204);
+    padding: 5px 10px;
+}
+.list{
+    display: flex;
+    width: 250px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(202, 202, 202);
+    padding: 10px 20px;
+    margin-block: 10px;
+}
+.app ul{
+    list-style: none;
+    padding-left: 0;
+}
+.editicon{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.deleteicon{
+    cursor: pointer;
+}
